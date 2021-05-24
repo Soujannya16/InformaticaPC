@@ -1,0 +1,11 @@
+Dept_Code	Student_ID	Student_Name
+D1	10000	Arjun
+D1	10001	Banu
+D1	10002	Chris
+D2	10003	Albert
+D2	10004	Swetha
+D2	10005	Thanu
+D3	10006	Venu
+D3	10007	Aman
+D4	10008	Sanket
+D4	10009	Harshit

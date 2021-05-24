@@ -1,0 +1,171 @@
+2020-11-06 06:52:31 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6014 : Initializing session [s_M_MARKS_FACT_TABLE] at [Fri Nov 06 06:52:31 2020].
+2020-11-06 06:52:31 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6683 : Repository Name: [Repo_Academy]
+2020-11-06 06:52:31 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6684 : Server Name: [INT_RepoAcademy]
+2020-11-06 06:52:31 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6686 : Folder: [Training_Academy]
+2020-11-06 06:52:31 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6685 : Workflow: [WF_FINAL_WORK] Run Instance Name: [] Run Id: [51]
+2020-11-06 06:52:31 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6101 : Mapping name: M_MARKS_FACT_TABLE [version CheckedOut].
+2020-11-06 06:52:31 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2020-11-06 06:52:31 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2020-11-06 06:52:31 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2020-11-06 06:52:31 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6703 : Session [s_M_MARKS_FACT_TABLE] is run by 64-bit Integration Service  [node01], version [10.1.0], build [0609].
+2020-11-06 06:52:31 : INFO : (4696 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2020-11-06 06:52:31 : INFO : (4696 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24058 : Running Partition Group [1].
+2020-11-06 06:52:31 : INFO : (4696 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2020-11-06 06:52:31 : INFO : (4696 | MONITOR) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2020-11-06 06:52:31 : INFO : (4696 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2020-11-06 06:52:31 : INFO : (4696 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24003 : Initializing session run.
+2020-11-06 06:52:31 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2020-11-06 06:52:31 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1569 : Server Mode: [ASCII]
+2020-11-06 06:52:31 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2020-11-06 06:52:31 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6151 : The session sort order is [Binary].
+2020-11-06 06:52:31 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6156 : Using low precision processing.
+2020-11-06 06:52:31 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2020-11-06 06:52:31 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2020-11-06 06:52:31 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6307 : DTM error log disabled. 
+2020-11-06 06:52:31 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7022 : TShmWriter: Initialized
+2020-11-06 06:52:31 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : DBG_21075 : Connecting to database [orcl1], user [infoadmin]
+2020-11-06 06:52:32 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6007 : DTM initialized successfully for session [s_M_MARKS_FACT_TABLE]
+2020-11-06 06:52:32 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2020-11-06 06:52:32 : INFO : (4696 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Fri Nov 06 06:52:32 2020)
+2020-11-06 06:52:32 : INFO : (4696 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2020-11-06 06:52:32 : INFO : (4696 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : DBG_21349 : No load constraints for Target [MARKS_FACT]. It does not reference any primary table from the same active source or transaction generator.
+2020-11-06 06:52:32 : INFO : (4696 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : DBG_21104 : Determining truncate order for [MARKS_FACT] [instance id:13]
+2020-11-06 06:52:32 : INFO : (4696 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : DBG_21531 :     Truncate order for [MARKS_FACT] [instance id:13] determined successfully
+2020-11-06 06:52:32 : INFO : (4696 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : WRT_8365 : WRT_8365 Starting truncate for target table [MARKS_FACT]. : (Fri Nov 06 06:52:32 2020)
+2020-11-06 06:52:32 : INFO : (4696 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : WRT_8022 : WRT_8022 Truncate table for table [MARKS_FACT] succeeded. : (Fri Nov 06 06:52:32 2020)
+2020-11-06 06:52:32 : INFO : (4696 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Fri Nov 06 06:52:32 2020)
+2020-11-06 06:52:32 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24006 : Starting data movement.
+2020-11-06 06:52:32 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TT_11183 : Enabled using [1 (auto)] additional concurrent pipelines to build lookup caches. (Session likely will build or refresh [2] lookup caches; [0] on-demand only).
+2020-11-06 06:52:32 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6660 : Total Buffer Pool size is 1285184 bytes and Block size is 65536 bytes.
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [LKPDP_1] has the ID [5].
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1) : (IS | INT_RepoAcademy) : node01 : DBG_21097 : Lookup Transformation [LKP_STUDENT_DIM]: Default sql to create lookup cache: SELECT STUDENT_NAME,DEPT_ID,STUDENT_ID FROM STUDENT_DIM ORDER BY STUDENT_ID
+
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [LKP_STUDENT_DIM] from [89478485] to [89479600].
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [LKP_STUDENT_DIM] from [178956970] to [178962432].
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [LKPDP_2] has the ID [6].
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2) : (IS | INT_RepoAcademy) : node01 : DBG_21097 : Lookup Transformation [LKP_DEPT_DIM]: Default sql to create lookup cache: SELECT DEPT_NAME,DEPT_ID FROM DEPT_DIM ORDER BY DEPT_ID
+
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [LKP_DEPT_DIM] from [89478485] to [89479600].
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [LKP_DEPT_DIM] from [178956970] to [178962432].
+2020-11-06 06:52:32 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKP_STUDENT_DIM].
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1) : (IS | INT_RepoAcademy) : node01 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2020-11-06 06:52:32 : INFO : (4696 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [7].
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1:READER_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [LKPDP_1:READER_1_1] has the ID [8].
+2020-11-06 06:52:32 : INFO : (4696 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1:READER_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21438 : Reader: Source is [orcl1], user [infoadmin]
+2020-11-06 06:52:32 : INFO : (4696 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : FR_3118 : source [SQ_Student_Marks__2_] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2020-11-06 06:52:32 : INFO : (4696 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2020-11-06 06:52:32 : INFO : (4696 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16003 : Initialization completed successfully.
+2020-11-06 06:52:32 : INFO : (4696 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [9].
+2020-11-06 06:52:32 : INFO : (4696 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [10].
+2020-11-06 06:52:32 : INFO : (4696 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8147 : Writer: Target is database [orcl1], user [infoadmin], bulk mode [OFF]
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1:READER_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16003 : Initialization completed successfully.
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [LKPDP_1:TRANSF_1_1] has the ID [11].
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1:READER_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16007 : Reader run started.
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1:READER_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Fri Nov 06 06:52:32 2020)
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1:READER_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Fri Nov 06 06:52:32 2020)
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1:READER_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16008 : Reader run completed.
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Fri Nov 06 06:52:32 2020)
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21682 : Lookup table row count : 10
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21297 : Lookup cache row count : 10
+
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Fri Nov 06 06:52:32 2020)
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : CMN_1671 : Created new cache files PMLKUP25_10_0_51W64.[dat/idx] in directory C:\Informatica\10.1.0\server\infa_shared\Cache for Lookup [LKP_STUDENT_DIM].
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21641 : LKP_STUDENT_DIM: Index cache size = [89479600], Data cache size = [178962432]
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21216 : Finished transformations for Source Qualifier [LKP_STUDENT_DIM{{DSQ}}]. Total errors [0] 
+2020-11-06 06:52:32 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKP_DEPT_DIM].
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2) : (IS | INT_RepoAcademy) : node01 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2:READER_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [LKPDP_2:READER_1_1] has the ID [12].
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2:READER_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21438 : Reader: Source is [orcl1], user [infoadmin]
+2020-11-06 06:52:32 : INFO : (4696 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8124 : Target Table MARKS_FACT :SQL INSERT statement:
+INSERT INTO MARKS_FACT(STUDENT_ID,STUDENT_NAME,DEPT_ID,DEPT_NAME,SUBJECT1,SUBJECT2,SUBJECT3,SUBJECT4,SUBJECT5,TOTAL,AVERAGE,RESULT1)  VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2020-11-06 06:52:32 : INFO : (4696 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8020 : No column marked as primary key for table [MARKS_FACT]. UPDATEs Not Supported.
+2020-11-06 06:52:32 : INFO : (4696 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [MARKS_FACT]
+2020-11-06 06:52:32 : INFO : (4696 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8003 : Writer initialization complete.
+2020-11-06 06:52:32 : INFO : (4696 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16007 : Reader run started.
+2020-11-06 06:52:32 : INFO : (4696 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : FR_3076 : Skipped over [1] lines.
+2020-11-06 06:52:32 : INFO : (4696 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [C:\Informatica\10.1.0\server\infa_shared\SrcFiles\Student_Marks (1).txt] : (Fri Nov 06 06:52:32 2020)
+2020-11-06 06:52:32 : INFO : (4696 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16019 : Read [10] rows, read [0] error rows for source table [Student_Marks__2_] instance name [Student_Marks__2_]
+2020-11-06 06:52:32 : INFO : (4696 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16008 : Reader run completed.
+2020-11-06 06:52:32 : INFO : (4696 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8005 : Writer run started.
+2020-11-06 06:52:32 : INFO : (4696 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Fri Nov 06 06:52:32 2020
+
+Target tables:
+
+     MARKS_FACT
+
+
+2020-11-06 06:52:32 : INFO : (4696 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : TT_11186 : Lookup cache of [LKP_DEPT_DIM], previously started by an additional concurrent pipeline, is now needed on demand.
+2020-11-06 06:52:32 : INFO : (4696 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : TT_11185 : No more lookup cache to build by additional concurrent pipeline in the current concurrent source set.
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2:READER_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16003 : Initialization completed successfully.
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [LKPDP_2:TRANSF_1_1] has the ID [13].
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2:READER_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16007 : Reader run started.
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2:READER_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Fri Nov 06 06:52:32 2020)
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2:READER_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Fri Nov 06 06:52:32 2020)
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2:READER_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16008 : Reader run completed.
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Fri Nov 06 06:52:32 2020)
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21682 : Lookup table row count : 23
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21297 : Lookup cache row count : 23
+
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Fri Nov 06 06:52:32 2020)
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : CMN_1671 : Created new cache files PMLKUP25_11_0_51W64.[dat/idx] in directory C:\Informatica\10.1.0\server\infa_shared\Cache for Lookup [LKP_DEPT_DIM].
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21641 : LKP_DEPT_DIM: Index cache size = [89479600], Data cache size = [178962432]
+2020-11-06 06:52:32 : INFO : (4696 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21216 : Finished transformations for Source Qualifier [LKP_DEPT_DIM{{DSQ}}]. Total errors [0] 
+2020-11-06 06:52:32 : INFO : (4696 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_Student_Marks__2_]. Total errors [0] 
+2020-11-06 06:52:32 : INFO : (4696 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8167 : Start loading table [MARKS_FACT] at: Fri Nov 06 06:52:32 2020
+2020-11-06 06:52:32 : INFO : (4696 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8168 : End loading table [MARKS_FACT] at: Fri Nov 06 06:52:32 2020
+2020-11-06 06:52:32 : INFO : (4696 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8141 : 
+Commit on end-of-data  Fri Nov 06 06:52:32 2020
+===================================================
+
+WRT_8036 Target: MARKS_FACT (Instance Name: [MARKS_FACT])
+WRT_8038 Inserted rows - Requested: 10         Applied: 10         Rejected: 0          Affected: 10        
+
+2020-11-06 06:52:32 : INFO : (4696 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8035 : Load complete time: Fri Nov 06 06:52:32 2020
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: MARKS_FACT (Instance Name: [MARKS_FACT])
+WRT_8038 Inserted rows - Requested: 10         Applied: 10         Rejected: 0          Affected: 10        
+
+
+2020-11-06 06:52:32 : INFO : (4696 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2020-11-06 06:52:32 : INFO : (4696 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8006 : Writer run completed.
+2020-11-06 06:52:32 : INFO : (4696 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_Student_Marks__2_] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_Student_Marks__2_] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [MARKS_FACT] has completed. The total run time was insufficient for any meaningful statistics.
+
+2020-11-06 06:52:32 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1793 : The index cache size that would hold [10] rows in the lookup table for [LKP_STUDENT_DIM], in memory, is [2800] bytes
+2020-11-06 06:52:32 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1792 : The data cache size that would hold [10] rows in the lookup table for [LKP_STUDENT_DIM], in memory, is [16384] bytes
+2020-11-06 06:52:32 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1793 : The index cache size that would hold [23] rows in the lookup table for [LKP_DEPT_DIM], in memory, is [2800] bytes
+2020-11-06 06:52:32 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1792 : The data cache size that would hold [23] rows in the lookup table for [LKP_DEPT_DIM], in memory, is [16384] bytes
+2020-11-06 06:52:32 : INFO : (4696 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Fri Nov 06 06:52:32 2020)
+2020-11-06 06:52:32 : INFO : (4696 | POST-SESS) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [14].
+2020-11-06 06:52:32 : INFO : (4696 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Fri Nov 06 06:52:32 2020)
+2020-11-06 06:52:32 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7216 : Deleting cache files [PMLKUP25_10_0_51W64] for transformation [LKP_STUDENT_DIM].
+2020-11-06 06:52:32 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7216 : Deleting cache files [PMLKUP25_11_0_51W64] for transformation [LKP_DEPT_DIM].
+2020-11-06 06:52:32 : INFO : (4696 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2020-11-06 06:52:32 : INFO : (4696 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2020-11-06 06:52:33 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24012 : Session run completed successfully.
+2020-11-06 06:52:33 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2020-11-06 06:52:33 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6252 : Source Load Summary.
+2020-11-06 06:52:33 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : CMN_1740 : Table: [SQ_Student_Marks__2_] (Instance Name: [SQ_Student_Marks__2_])
+	 Output Rows [10], Affected Rows [10], Applied Rows [10], Rejected Rows [0]
+2020-11-06 06:52:33 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6253 : Target Load Summary.
+2020-11-06 06:52:33 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : CMN_1740 : Table: [MARKS_FACT] (Instance Name: [MARKS_FACT])
+	 Output Rows [10], Affected Rows [10], Applied Rows [10], Rejected Rows [0]
+2020-11-06 06:52:33 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6023 : 
+===================================================
+
+2020-11-06 06:52:33 : INFO : (4696 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6020 : Session [s_M_MARKS_FACT_TABLE] completed at [Fri Nov 06 06:52:33 2020].

@@ -1,0 +1,142 @@
+2020-11-06 06:52:37 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6014 : Initializing session [s_M_SUBJECT_PASS_PER_AGG] at [Fri Nov 06 06:52:37 2020].
+2020-11-06 06:52:37 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6683 : Repository Name: [Repo_Academy]
+2020-11-06 06:52:37 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6684 : Server Name: [INT_RepoAcademy]
+2020-11-06 06:52:37 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6686 : Folder: [Training_Academy]
+2020-11-06 06:52:37 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6685 : Workflow: [WF_FINAL_WORK] Run Instance Name: [] Run Id: [51]
+2020-11-06 06:52:37 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6101 : Mapping name: M_SUBJECT_PASS_PER_AGG [version CheckedOut].
+2020-11-06 06:52:37 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2020-11-06 06:52:37 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2020-11-06 06:52:37 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2020-11-06 06:52:37 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6703 : Session [s_M_SUBJECT_PASS_PER_AGG] is run by 64-bit Integration Service  [node01], version [10.1.0], build [0609].
+2020-11-06 06:52:37 : INFO : (5072 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2020-11-06 06:52:37 : INFO : (5072 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24058 : Running Partition Group [1].
+2020-11-06 06:52:37 : INFO : (5072 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2020-11-06 06:52:37 : INFO : (5072 | MONITOR) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2020-11-06 06:52:37 : INFO : (5072 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2020-11-06 06:52:37 : INFO : (5072 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24003 : Initializing session run.
+2020-11-06 06:52:37 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2020-11-06 06:52:37 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1569 : Server Mode: [ASCII]
+2020-11-06 06:52:37 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2020-11-06 06:52:37 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6151 : The session sort order is [Binary].
+2020-11-06 06:52:37 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6156 : Using low precision processing.
+2020-11-06 06:52:37 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2020-11-06 06:52:37 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2020-11-06 06:52:37 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6307 : DTM error log disabled. 
+2020-11-06 06:52:37 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7022 : TShmWriter: Initialized
+2020-11-06 06:52:37 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : DBG_21694 : AGG_SUB_PASS_PER Partition [0]: Index cache size = [178956970], Data cache size = [357913940]
+2020-11-06 06:52:37 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [AGG_SUB_PASS_PER] from [178956970] to [178957752].
+2020-11-06 06:52:37 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [AGG_SUB_PASS_PER] from [357913940] to [357914000].
+2020-11-06 06:52:37 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7029 : Aggregate Information: Creating New Index and Data Files
+2020-11-06 06:52:37 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7034 : Aggregate Information: Index file is [C:\Informatica\10.1.0\server\infa_shared\Cache\PMAGG27_4_0_51.idx]
+2020-11-06 06:52:37 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7035 : Aggregate Information: Data file is [C:\Informatica\10.1.0\server\infa_shared\Cache\PMAGG27_4_0_51.dat]
+2020-11-06 06:52:38 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6007 : DTM initialized successfully for session [s_M_SUBJECT_PASS_PER_AGG]
+2020-11-06 06:52:38 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2020-11-06 06:52:38 : INFO : (5072 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Fri Nov 06 06:52:38 2020)
+2020-11-06 06:52:38 : INFO : (5072 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2020-11-06 06:52:38 : INFO : (5072 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : DBG_21349 : No load constraints for Target [SUBJECT_PASS_PERCENT_AGGRE]. It does not reference any primary table from the same active source or transaction generator.
+2020-11-06 06:52:38 : INFO : (5072 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : DBG_21104 : Determining truncate order for [SUBJECT_PASS_PERCENT_AGGRE] [instance id:6]
+2020-11-06 06:52:38 : INFO : (5072 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : DBG_21531 :     Truncate order for [SUBJECT_PASS_PERCENT_AGGRE] [instance id:6] determined successfully
+2020-11-06 06:52:38 : INFO : (5072 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : WRT_8365 : WRT_8365 Starting truncate for target table [SUBJECT_PASS_PERCENT_AGGRE]. : (Fri Nov 06 06:52:38 2020)
+2020-11-06 06:52:38 : INFO : (5072 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : WRT_8022 : WRT_8022 Truncate table for table [SUBJECT_PASS_PERCENT_AGGRE] succeeded. : (Fri Nov 06 06:52:38 2020)
+2020-11-06 06:52:38 : INFO : (5072 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Fri Nov 06 06:52:38 2020)
+2020-11-06 06:52:38 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24006 : Starting data movement.
+2020-11-06 06:52:38 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6660 : Total Buffer Pool size is 1219648 bytes and Block size is 65536 bytes.
+2020-11-06 06:52:38 : INFO : (5072 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [5].
+2020-11-06 06:52:38 : INFO : (5072 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21438 : Reader: Source is [orcl1], user [infoadmin]
+2020-11-06 06:52:38 : INFO : (5072 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16003 : Initialization completed successfully.
+2020-11-06 06:52:38 : INFO : (5072 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [6].
+2020-11-06 06:52:38 : INFO : (5072 | TRANSF_1_2_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [TRANSF_1_2_1] has the ID [7].
+2020-11-06 06:52:38 : INFO : (5072 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [8].
+2020-11-06 06:52:38 : INFO : (5072 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8147 : Writer: Target is database [orcl1], user [infoadmin], bulk mode [OFF]
+2020-11-06 06:52:38 : INFO : (5072 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8124 : Target Table SUBJECT_PASS_PERCENT_AGGRE :SQL INSERT statement:
+INSERT INTO SUBJECT_PASS_PERCENT_AGGRE(DEPT_ID,DEPT_NAME,SUBJECT1_PASS_PERCENTAGE,SUBJECT2_PASS_PERCENTAGE,SUBJECT3_PASS_PERCENTAGE,SUBJECT4_PASS_PERCENTAGE,SUBJECT5_PASS_PERCENTAGE)  VALUES ( ?, ?, ?, ?, ?, ?, ?) 
+2020-11-06 06:52:38 : INFO : (5072 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8020 : No column marked as primary key for table [SUBJECT_PASS_PERCENT_AGGRE]. UPDATEs Not Supported.
+2020-11-06 06:52:38 : INFO : (5072 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [SUBJECT_PASS_PERCENT_AGGRE]
+2020-11-06 06:52:38 : INFO : (5072 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8003 : Writer initialization complete.
+2020-11-06 06:52:38 : INFO : (5072 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16007 : Reader run started.
+2020-11-06 06:52:38 : INFO : (5072 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8005 : Writer run started.
+2020-11-06 06:52:38 : INFO : (5072 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4010 : SQ instance [SQ_MARKS_FACT_1] SQL Query [SELECT MARKS_FACT.DEPT_ID, MARKS_FACT.DEPT_NAME, MARKS_FACT.SUBJECT1, MARKS_FACT.SUBJECT2, MARKS_FACT.SUBJECT3, MARKS_FACT.SUBJECT4, MARKS_FACT.SUBJECT5 FROM MARKS_FACT]
+2020-11-06 06:52:38 : INFO : (5072 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Fri Nov 06 06:52:38 2020
+
+Target tables:
+
+     SUBJECT_PASS_PERCENT_AGGRE
+
+
+2020-11-06 06:52:38 : INFO : (5072 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Fri Nov 06 06:52:38 2020)
+2020-11-06 06:52:38 : INFO : (5072 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Fri Nov 06 06:52:38 2020)
+2020-11-06 06:52:38 : INFO : (5072 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16019 : Read [10] rows, read [0] error rows for source table [MARKS_FACT] instance name [MARKS_FACT_1]
+2020-11-06 06:52:38 : INFO : (5072 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16008 : Reader run completed.
+2020-11-06 06:52:38 : INFO : (5072 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_MARKS_FACT_1]. Total errors [0] 
+2020-11-06 06:52:38 : INFO : (5072 | TRANSF_1_2_1) : (IS | INT_RepoAcademy) : node01 : TE_7032 : The B-Tree being managed in files
+C:\Informatica\10.1.0\server\infa_shared\Cache\PMAGG27_4_0_51.dat for Data and
+
+C:\Informatica\10.1.0\server\infa_shared\Cache\PMAGG27_4_0_51.idx for Index has:
+	Index Size:	7
+	Row Size:	176
+	Order:		100
+	Minimum Order:	50
+	Height:		1
+	Entries:	4
+	IndexPageSize:	1896
+	IndexPages:	94387
+	DataPageSize:	536
+	DataPages:	667750
+
+2020-11-06 06:52:38 : INFO : (5072 | TRANSF_1_2_1) : (IS | INT_RepoAcademy) : node01 : DBG_21216 : Finished transformations for Source Qualifier [AGG_SUB_PASS_PER]. Total errors [0] 
+2020-11-06 06:52:38 : INFO : (5072 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8167 : Start loading table [SUBJECT_PASS_PERCENT_AGGRE] at: Fri Nov 06 06:52:38 2020
+2020-11-06 06:52:38 : INFO : (5072 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8168 : End loading table [SUBJECT_PASS_PERCENT_AGGRE] at: Fri Nov 06 06:52:38 2020
+2020-11-06 06:52:38 : INFO : (5072 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8141 : 
+Commit on end-of-data  Fri Nov 06 06:52:38 2020
+===================================================
+
+WRT_8036 Target: SUBJECT_PASS_PERCENT_AGGRE (Instance Name: [SUBJECT_PASS_PERCENT_AGGRE])
+WRT_8038 Inserted rows - Requested: 4          Applied: 4          Rejected: 0          Affected: 4         
+
+2020-11-06 06:52:38 : INFO : (5072 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8035 : Load complete time: Fri Nov 06 06:52:38 2020
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: SUBJECT_PASS_PERCENT_AGGRE (Instance Name: [SUBJECT_PASS_PERCENT_AGGRE])
+WRT_8038 Inserted rows - Requested: 4          Applied: 4          Rejected: 0          Affected: 4         
+
+
+2020-11-06 06:52:38 : INFO : (5072 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2020-11-06 06:52:38 : INFO : (5072 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8006 : Writer run completed.
+2020-11-06 06:52:38 : INFO : (5072 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_MARKS_FACT_1] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_MARKS_FACT_1] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_2_1] created for [the transformation stage] of partition point [AGG_SUB_PASS_PER] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [SUBJECT_PASS_PERCENT_AGGRE] has completed. The total run time was insufficient for any meaningful statistics.
+
+2020-11-06 06:52:38 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1791 : The index cache size that would hold [4] aggregate groups of input rows for [AGG_SUB_PASS_PER], in memory, is [1896] bytes
+2020-11-06 06:52:38 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1790 : The data cache size that would hold [4] aggregate groups of input rows for [AGG_SUB_PASS_PER], in memory, is [1072] bytes
+2020-11-06 06:52:38 : INFO : (5072 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Fri Nov 06 06:52:38 2020)
+2020-11-06 06:52:38 : INFO : (5072 | POST-SESS) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [9].
+2020-11-06 06:52:38 : INFO : (5072 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Fri Nov 06 06:52:38 2020)
+2020-11-06 06:52:38 : INFO : (5072 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2020-11-06 06:52:38 : INFO : (5072 | MANAGER) : (IS | INT_RepoAcademy) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.1.0\server\infa_shared\Cache\PMAGG27_4_0_51.idx] for transformation [AGG_SUB_PASS_PER].
+2020-11-06 06:52:38 : INFO : (5072 | MANAGER) : (IS | INT_RepoAcademy) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.1.0\server\infa_shared\Cache\PMAGG27_4_0_51.dat] for transformation [AGG_SUB_PASS_PER].
+2020-11-06 06:52:39 : INFO : (5072 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2020-11-06 06:52:39 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24012 : Session run completed successfully.
+2020-11-06 06:52:39 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2020-11-06 06:52:39 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6252 : Source Load Summary.
+2020-11-06 06:52:39 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : CMN_1740 : Table: [SQ_MARKS_FACT_1] (Instance Name: [SQ_MARKS_FACT_1])
+	 Output Rows [10], Affected Rows [10], Applied Rows [10], Rejected Rows [0]
+2020-11-06 06:52:39 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6253 : Target Load Summary.
+2020-11-06 06:52:39 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : CMN_1740 : Table: [SUBJECT_PASS_PERCENT_AGGRE] (Instance Name: [SUBJECT_PASS_PERCENT_AGGRE])
+	 Output Rows [4], Affected Rows [4], Applied Rows [4], Rejected Rows [0]
+2020-11-06 06:52:39 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6023 : 
+===================================================
+
+2020-11-06 06:52:39 : INFO : (5072 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6020 : Session [s_M_SUBJECT_PASS_PER_AGG] completed at [Fri Nov 06 06:52:39 2020].
