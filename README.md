@@ -24,3 +24,11 @@ The scope of this document is limited to addressing the requirements from a user
 
 ## 1.5. Impact
 The system will be beneficial in order to manage the academics of a batch of students in an institution & generate a clear picture of necessary changes for betterment.
+
+## 1.6 How to run
+- First, the mapping xml files need to be imported in the Informatica PC _Designer_.
+- Then, the workflow xml files need to be imported in the  _Workflow Manger_ associated with the mappings given.
+- Now the workflow can be run and the progress and session logs can be checked in the _Workflow Monitor_.
+- The source and target files are given as text files for further reference.
+- The session logs of when the project was run is given.
+- The testing was done in sql developer and the testing file is also provided.
