@@ -1,5 +1,7 @@
 # InformaticaPC
 
+Duration - 16.11.2020 to 29.11.2020
+
 **Main objective of this project is to transform unstructured data into structured data so that the data can be used to for _Business Intelligence_.**
 
 ## 1.1. Problem Statement
