@@ -31,4 +31,4 @@ The system will be beneficial in order to manage the academics of a batch of stu
 - Now the workflow can be run and the progress and session logs can be checked in the _Workflow Monitor_.
 - The source and target files are given as text files for further reference.
 - The session logs of when the project was run is given.
-- The testing was done in sql developer and the testing file is also provided.
+- The testing was done in sql developer and the testing file is also provided. The testing screenshots are provided in the report.
