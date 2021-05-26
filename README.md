@@ -28,7 +28,9 @@ The system will be beneficial in order to manage the academics of a batch of stu
 ## 1.6 How to run
 - First, the mapping xml files need to be imported in the Informatica PC _Designer_.
 - Then, the workflow xml files need to be imported in the  _Workflow Manger_ associated with the mappings given.
-- Now the workflow can be run and the progress and session logs can be checked in the _Workflow Monitor_.
-- The source and target files are given as text files for further reference.
+- The sessions need to personalised and the location of the targets needs to be set. To do this, open the respective sessions in _Task Developer_ of _Workflow Manager_ and double click on the session icon. In the mapping part, the target location can be set.
+- Now the workflow can be run and the progress and session logs can be checked in the _Workflow Monitor_ and the target database tables.
+- The source files are given as text files for further reference.
+- The target is relational databases here, so it isn't provided, the screenshots can be refered from the report.
 - The session logs of when the project was run is given.
 - The testing was done in sql developer and the testing file is also provided. The testing screenshots are provided in the report.
